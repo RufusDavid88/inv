@@ -125,7 +125,8 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'myapi')
+MEDIA_URL = '/myapi/'
 
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
